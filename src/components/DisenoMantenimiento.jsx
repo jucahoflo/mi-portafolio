@@ -25,25 +25,59 @@ const imagenesVariadores = [
 ]
 
 // ============================================
-// 📌 MANTENIMIENTOS ELÉCTRICOS
+// 📌 MANTENIMIENTOS ELÉCTRICOS (49 imágenes)
 // ============================================
 
 const imagenesMantenimientos = [
-  { id: 1, url: "/imagenes/mantenimientos/mantenimiento1.jpg", titulo: "Mantenimiento Eléctrico 1" },
-  { id: 2, url: "/imagenes/mantenimientos/mantenimiento2.jpg", titulo: "Mantenimiento Eléctrico 2" },
-  { id: 3, url: "/imagenes/mantenimientos/mantenimiento3.jpg", titulo: "Mantenimiento Eléctrico 3" },
-  { id: 4, url: "/imagenes/mantenimientos/mantenimiento4.jpg", titulo: "Mantenimiento Eléctrico 4" },
-  { id: 5, url: "/imagenes/mantenimientos/mantenimiento5.jpg", titulo: "Mantenimiento Eléctrico 5" },
-  { id: 6, url: "/imagenes/mantenimientos/mantenimiento6.jpg", titulo: "Mantenimiento Eléctrico 6" },
-  { id: 7, url: "/imagenes/mantenimientos/mantenimiento7.jpg", titulo: "Mantenimiento Eléctrico 7" },
-  { id: 8, url: "/imagenes/mantenimientos/mantenimiento8.jpg", titulo: "Mantenimiento Eléctrico 8" },
-  { id: 9, url: "/imagenes/mantenimientos/mantenimiento9.jpg", titulo: "Mantenimiento Eléctrico 9" },
-  { id: 10, url: "/imagenes/mantenimientos/mantenimiento10.jpg", titulo: "Mantenimiento Eléctrico 10" },
-  { id: 11, url: "/imagenes/mantenimientos/mantenimiento11.jpg", titulo: "Mantenimiento Eléctrico 11" },
-  { id: 12, url: "/imagenes/mantenimientos/mantenimiento12.jpg", titulo: "Mantenimiento Eléctrico 12" },
-  { id: 13, url: "/imagenes/mantenimientos/mantenimiento13.jpg", titulo: "Mantenimiento Eléctrico 13" },
-  { id: 14, url: "/imagenes/mantenimientos/mantenimiento14.jpg", titulo: "Mantenimiento Eléctrico 14" },
-  { id: 15, url: "/imagenes/mantenimientos/mantenimiento15.jpg", titulo: "Mantenimiento Eléctrico 15" }
+  { id: 1, url: "/imagenes/mantenimientos/mt1.jpg", titulo: "Mantenimiento Eléctrico 1" },
+  { id: 2, url: "/imagenes/mantenimientos/mt2.jpg", titulo: "Mantenimiento Eléctrico 2" },
+  { id: 3, url: "/imagenes/mantenimientos/mt3.jpg", titulo: "Mantenimiento Eléctrico 3" },
+  { id: 4, url: "/imagenes/mantenimientos/mt4.jpg", titulo: "Mantenimiento Eléctrico 4" },
+  { id: 5, url: "/imagenes/mantenimientos/mt5.jpg", titulo: "Mantenimiento Eléctrico 5" },
+  { id: 6, url: "/imagenes/mantenimientos/mt6.jpg", titulo: "Mantenimiento Eléctrico 6" },
+  { id: 7, url: "/imagenes/mantenimientos/mt7.jpg", titulo: "Mantenimiento Eléctrico 7" },
+  { id: 8, url: "/imagenes/mantenimientos/mt8.jpg", titulo: "Mantenimiento Eléctrico 8" },
+  { id: 9, url: "/imagenes/mantenimientos/mt9.jpg", titulo: "Mantenimiento Eléctrico 9" },
+  { id: 10, url: "/imagenes/mantenimientos/mt10.jpg", titulo: "Mantenimiento Eléctrico 10" },
+  { id: 11, url: "/imagenes/mantenimientos/mt11.jpg", titulo: "Mantenimiento Eléctrico 11" },
+  { id: 12, url: "/imagenes/mantenimientos/mt13.jpg", titulo: "Mantenimiento Eléctrico 13" },
+  { id: 13, url: "/imagenes/mantenimientos/mt14.jpg", titulo: "Mantenimiento Eléctrico 14" },
+  { id: 14, url: "/imagenes/mantenimientos/mt15.jpg", titulo: "Mantenimiento Eléctrico 15" },
+  { id: 15, url: "/imagenes/mantenimientos/mt16.jpg", titulo: "Mantenimiento Eléctrico 16" },
+  { id: 16, url: "/imagenes/mantenimientos/mt17.jpg", titulo: "Mantenimiento Eléctrico 17" },
+  { id: 17, url: "/imagenes/mantenimientos/mt18.jpg", titulo: "Mantenimiento Eléctrico 18" },
+  { id: 18, url: "/imagenes/mantenimientos/mt19.jpg", titulo: "Mantenimiento Eléctrico 19" },
+  { id: 19, url: "/imagenes/mantenimientos/mt20.jpg", titulo: "Mantenimiento Eléctrico 20" },
+  { id: 20, url: "/imagenes/mantenimientos/mt21.jpg", titulo: "Mantenimiento Eléctrico 21" },
+  { id: 21, url: "/imagenes/mantenimientos/mt22.jpg", titulo: "Mantenimiento Eléctrico 22" },
+  { id: 22, url: "/imagenes/mantenimientos/mt23.jpg", titulo: "Mantenimiento Eléctrico 23" },
+  { id: 23, url: "/imagenes/mantenimientos/mt24.jpg", titulo: "Mantenimiento Eléctrico 24" },
+  { id: 24, url: "/imagenes/mantenimientos/mt25.jpg", titulo: "Mantenimiento Eléctrico 25" },
+  { id: 25, url: "/imagenes/mantenimientos/mt26.jpg", titulo: "Mantenimiento Eléctrico 26" },
+  { id: 26, url: "/imagenes/mantenimientos/mt27.jpg", titulo: "Mantenimiento Eléctrico 27" },
+  { id: 27, url: "/imagenes/mantenimientos/mt28.jpg", titulo: "Mantenimiento Eléctrico 28" },
+  { id: 28, url: "/imagenes/mantenimientos/mt29.jpg", titulo: "Mantenimiento Eléctrico 29" },
+  { id: 29, url: "/imagenes/mantenimientos/mt30.jpg", titulo: "Mantenimiento Eléctrico 30" },
+  { id: 30, url: "/imagenes/mantenimientos/mt31.jpg", titulo: "Mantenimiento Eléctrico 31" },
+  { id: 31, url: "/imagenes/mantenimientos/mt32.jpg", titulo: "Mantenimiento Eléctrico 32" },
+  { id: 32, url: "/imagenes/mantenimientos/mt33.jpg", titulo: "Mantenimiento Eléctrico 33" },
+  { id: 33, url: "/imagenes/mantenimientos/mt34.jpg", titulo: "Mantenimiento Eléctrico 34" },
+  { id: 34, url: "/imagenes/mantenimientos/mt35.jpg", titulo: "Mantenimiento Eléctrico 35" },
+  { id: 35, url: "/imagenes/mantenimientos/mt36.jpg", titulo: "Mantenimiento Eléctrico 36" },
+  { id: 36, url: "/imagenes/mantenimientos/mt37.jpg", titulo: "Mantenimiento Eléctrico 37" },
+  { id: 37, url: "/imagenes/mantenimientos/mtplanta1.jpg", titulo: "Mantenimiento Planta 1" },
+  { id: 38, url: "/imagenes/mantenimientos/alarmaSCI.jpg", titulo: "Alarma SCI" },
+  { id: 39, url: "/imagenes/mantenimientos/catodicas.jpg", titulo: "Cátodicas" },
+  { id: 40, url: "/imagenes/mantenimientos/GAB1DISEÑO.jpg", titulo: "Gabinete Diseño 1" },
+  { id: 41, url: "/imagenes/mantenimientos/img1.PNG", titulo: "Imagen 1" },
+  { id: 42, url: "/imagenes/mantenimientos/img2.PNG", titulo: "Imagen 2" },
+  { id: 43, url: "/imagenes/mantenimientos/img3.PNG", titulo: "Imagen 3" },
+  { id: 44, url: "/imagenes/mantenimientos/img4.jpg", titulo: "Imagen 4" },
+  { id: 45, url: "/imagenes/mantenimientos/img5.PNG", titulo: "Imagen 5" },
+  { id: 46, url: "/imagenes/mantenimientos/MEDAISL.jpg", titulo: "Medición Aisl" },
+  { id: 47, url: "/imagenes/mantenimientos/saes.jpg", titulo: "SAES 1" },
+  { id: 48, url: "/imagenes/mantenimientos/saes2.jpg", titulo: "SAES 2" },
+  { id: 49, url: "/imagenes/mantenimientos/SCI1.jpg", titulo: "SCI 1" }
 ]
 
 // ============================================
@@ -66,7 +100,8 @@ const imagenesElectronicos = [
   { id: 13, url: "/imagenes/electronicos/electron13.jpg", titulo: "Pruebas proyecto infrarojo" },
   { id: 14, url: "/imagenes/electronicos/electron14.jpg", titulo: "Esquematico pcb live wire" },
   { id: 15, url: "/imagenes/electronicos/electron15.jpg", titulo: "Proyecto Electrónico 15" },
-  ]
+  { id: 16, url: "/imagenes/electronicos/electron16.jpg", titulo: "Proyecto Electrónico 16" }
+]
 
 const DEFAULT_IMAGE = "https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=400&h=300&fit=crop"
 
@@ -82,7 +117,6 @@ export default function DisenoMantenimiento() {
     setModalAbierto(true)
   }
 
-  // ✅ CORREGIDO: Cierra la galería y va al inicio de la PÁGINA PRINCIPAL
   const volverAlInicio = () => {
     setModalAbierto(false)
     setImagenSeleccionada(null)
@@ -124,7 +158,7 @@ export default function DisenoMantenimiento() {
           />
 
           <TarjetaVertical
-            imagen="/imagenes/mantenimientos/mantenimiento1.jpg"
+            imagen="/imagenes/mantenimientos/mt1.jpg"
             titulo="Mantenimientos Eléctricos"
             descripcion="Mantenimiento industrial, reparación de motores trifásicos y variadores de velocidad"
             badges={[
@@ -155,7 +189,6 @@ export default function DisenoMantenimiento() {
           <div className="min-h-screen w-full p-4">
             <div className="max-w-6xl mx-auto">
               
-              {/* Botones superiores */}
               <div className="flex justify-center gap-4 mb-6">
                 <button 
                   onClick={volverAlInicio}
