@@ -77,14 +77,14 @@ export default function ExperienciaFormacion() {
       id: 2,
       titulo: "Supervisor de Operaciones",
       institucion: "Curso Especializado",
-      periodo: "Finalizado: Marzo 07-2026",
+      periodo: "Finalizado: Mayo 07-2026",
       ubicacion: "Medellín, Antioquia"
     },
     {
       id: 3,
       titulo: "Gestión y Control de Procesos Efectivos",
       institucion: "Curso Especializado",
-      periodo: "Finalizado: Marzo 07-2026",
+      periodo: "Finalizado: Mayo 07-2026",
       ubicacion: "Medellín, Antioquia"
     },
     {
