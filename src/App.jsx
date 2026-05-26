@@ -1,9 +1,10 @@
 // src/App.jsx
 import Hero from './components/Hero'
 import Projects from './components/Projects'
+import ExperienciaFormacion from './components/ExperienciaFormacion'  // ← NUEVO
+import DisenoMantenimiento from './components/DisenoMantenimiento'
 import Expertise from './components/Expertise'
 import SocialBar from './components/SocialBar'
-import DisenoMantenimiento from './components/DisenoMantenimiento'  // ← Nuevo componente unificado
 
 function App() {
   return (
@@ -18,15 +19,14 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 py-8 md:py-12">
           <Hero />
           <Projects />
-          
-          {/* Sección unificada: Diseño y Mantenimiento */}
+          <ExperienciaFormacion />  {/* ← NUEVA SECCIÓN */}
           <DisenoMantenimiento />
-          
           <Expertise />
           <SocialBar />
           
           <footer className="mt-16 pt-6 border-t border-white/10 text-center text-gray-400 text-sm">
             <p>© 2025 Juan Carlos Holguín F. — Ingeniería Electrónica + Desarrollo Web</p>
+            <p className="text-xs mt-1">Tarjeta Profesional Conte | Especialista en Variadores de Velocidad | Energías Renovables</p>
           </footer>
         </div>
       </div>

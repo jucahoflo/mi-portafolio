@@ -1,14 +1,18 @@
+// src/components/Hero.jsx
 export default function Hero() {
   return (
     <div className="flex flex-col lg:flex-row items-center gap-10 mb-16 pb-8 border-b border-white/10">
       {/* Foto de perfil */}
       <div className="relative group">
         <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-xl opacity-75 group-hover:opacity-100 transition duration-1000"></div>
-        <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
+        <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl bg-gray-800">
           <img 
-            src="https://ui-avatars.com/api/?name=Juan+Carlos+Holguin&background=1e1b4b&color=ffffff&size=200&bold=true&font-size=0.6&length=2&rounded=true"
+            src="/imagenes/perfil.jpeg"
             alt="Juan Carlos Holguín"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            onError={(e) => {
+              e.target.src = 'https://ui-avatars.com/api/?name=Juan+Carlos+Holguin&background=1e1b4b&color=ffffff&size=200&bold=true&font-size=0.6&length=2&rounded=true'
+            }}
           />
         </div>
         <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-black/60 backdrop-blur-sm px-3 py-1 rounded-full text-xs text-white">
@@ -23,7 +27,7 @@ export default function Hero() {
         </h1>
         <div className="mt-3">
           <p className="text-xl text-gray-300">
-            Ingeniero Electrónico | Magíster Electricidad Industrial
+            Electrónico / Electricista | Magíster Electricidad Industrial / Frontend Junior
           </p>
           <div className="flex flex-wrap justify-center lg:justify-start gap-2 mt-3">
             <span className="inline-block bg-blue-500/20 backdrop-blur-sm text-blue-300 px-4 py-1.5 rounded-full text-sm font-semibold border border-blue-500/30">
